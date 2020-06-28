@@ -76,11 +76,15 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
-        <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
+        <HomeLink to="/">Home</HomeLink>
+        {/*<NavLink to="/blog">Blog</NavLink>*/}
+        <NavLink to="/about">About</NavLink>
+        <GitHubLink href="https://github.com/mayankshouche">
           GitHub
         </GitHubLink>
+        <NavLink href="https://www.linkedin.com/in/mayankshouche/">
+          LinkedIn
+        </NavLink>
       </p>
     </Content>
   </SiteHeader>
@@ -91,7 +95,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Home`,
 }
 
 export default Header
