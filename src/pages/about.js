@@ -6,7 +6,7 @@ import AboutPage from "../components/about-page"
 
 const About = () => (
     <Layout>
-        <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="About" keywords={[`mayank`, `shouche`, `software`]} />
         <AboutPage />
     </Layout>
 )
